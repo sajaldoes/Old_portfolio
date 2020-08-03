@@ -1,0 +1,23 @@
+.aside .logo a::before{
+    border-top: 6px solid #2196f3;
+    border-left: 6px solid #2196f3;
+}
+
+.aside .logo a::after{
+    border-bottom: 6px solid #2196f3;
+    border-right: 6px solid #2196f3;
+}
+.aside .nav li a:hover,
+.aside .nav li a.active{
+    color: #2196f3;
+}
+
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after{
+    background-color: #2196f3;
+}
+
+.home .intro .social-links a{
+    background-color: #2196f3;
+}
