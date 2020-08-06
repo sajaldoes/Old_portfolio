@@ -7,11 +7,13 @@
     border-bottom: 6px solid #2196f3;
     border-right: 6px solid #2196f3;
 }
+.service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
 .aside .nav li a.active{
     color: #2196f3;
 }
+.service .service-item .service-item-inner:hover .icon,
 .about .about-content .timeline .circle-dot,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,
