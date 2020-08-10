@@ -7,6 +7,8 @@
     border-bottom: 6px solid #2196f3;
     border-right: 6px solid #2196f3;
 }
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
 .portfolio .portfolio-item .portfolio-info .icon .fa,
 .portfolio .portfolio-filter button.active,
 .blog .blog-item-inner .blog-info .blog-tags a,
