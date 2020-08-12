@@ -707,9 +707,11 @@ input,textarea,select{
 .lightbox .lightbox-content img{
     height: auto;
     width: auto;
-    max-height: 430px;
+    max-height: 500px;
     max-width: 100%;
     cursor: pointer;
+    display: block;
+    padding: 40px 0 30px;
 }
 .lightbox .lightbox-content{
     position: relative;
@@ -741,7 +743,7 @@ input,textarea,select{
     position: absolute;
     height: 40px;
     width: 40px;
-    top: -40px;
+    top: 0;
     right: 0px;
     font-size: 16px;
     text-align: right;
@@ -750,7 +752,7 @@ input,textarea,select{
 }
 .lightbox .lightbox-content .lightbox-caption{
     position: absolute;
-    bottom: -20px;
+    bottom: 0;
     left: 0;
     width: 100%;
     display: -ms-flexbox;
@@ -760,6 +762,7 @@ input,textarea,select{
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;
+    z-index: -1;
 }
 
 
@@ -779,10 +782,16 @@ input,textarea,select{
     transition: all 0.3s ease;
 }
 
-.lightbox .lightbox-controls .prev-item:active,
-.lightbox .lightbox-controls .next-item:active{
+.lightbox .lightbox-controls .prev-item:hover,
+.lightbox .lightbox-controls .next-item:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.lightbox .lightbox-controls .prev-item:active,
+.lightbox .lightbox-controls .next-item:active{
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 .lightbox .lightbox-controls .prev-item{
