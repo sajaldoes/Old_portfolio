@@ -815,6 +815,7 @@ input,textarea,select{
 }
 
 .blog .blog-item{
+    -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
@@ -978,6 +979,8 @@ input,textarea,select{
     }
 }
 @media (max-width: 991px){
+    .blog .blog-item,
+    .portfolio .portfolio-item,
     .service .service-item{
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
@@ -985,6 +988,7 @@ input,textarea,select{
     }
 }
 @media (max-width: 767px){
+    .blog .blog-item,
     .contact .contact-form .col-6,
     .service .service-item,
     .about .about-content .experience,
@@ -994,6 +998,9 @@ input,textarea,select{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .protfolio .portfolio-filter button{
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 575px){
